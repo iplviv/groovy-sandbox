@@ -4,7 +4,7 @@
   :maven_version: 3.0.5
   :gradle_version: 2.0
 :timeout_hook: 1200
-:timeout: 7200
+:timeout: 5400
 
 :tests:
 

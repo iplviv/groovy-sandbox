@@ -3,3 +3,6 @@ subprojects {
         mavenCentral()
     }
 }
+
+// The following line has been automatically added by the Solano runner
+apply from: 'solano.gradle'
