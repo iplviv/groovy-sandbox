@@ -1,5 +1,3 @@
-# First line instead of (c)
-
 #!/usr/bin/env ruby
 
 require 'fileutils'
@@ -28,7 +26,7 @@ end
 # Compose maven command.
 cmd = "("
 cmd += "gradle clean test #{options.join(' ')}"
-cmd += " -DtestFiles=#{files.join(',')}" if files.length > 0
+cmd += " -DtestFiles=#{files.map{|f| File.absolute_path(f)}.join(',')}" if files.length > 0
 cmd += ")"
  
 puts cmd
