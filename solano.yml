@@ -9,10 +9,10 @@
 :tests:
 
 - type: junit
-  mode: parallel
-  output: exit-status
-  files:
-  - include: '**/*Test.java'
+  mode: basic
+#  output: exit-status
+#  files:
+#  - include: '**/*Test.java'
   command: "./solano-runner" 
   report_files: 
   - "**/TEST-*.xml"
@@ -26,10 +26,3 @@
 #  - include: '**/*Test.java'
 #  report_files:
 #  - "java/multiproject/**/test-results/TEST-*.xml"
-
-#- type: junit
-#  command: cd testing/testng/java-jdk15-passing && gradle test
-#  invocation: single
-#  mode: basic
-#  report_files:
-#  - "testing/testng/java-jdk15-passing/build/**/testng-results.xml"
