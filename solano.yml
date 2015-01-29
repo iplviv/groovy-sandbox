@@ -3,8 +3,9 @@
   :java_version: java-7-openjdk
   :maven_version: 3.0.5
   :gradle_version: 2.0
-:timeout_hook: 600
-:timeout: 5400
+:timeout_hook: 120
+:timeout: 300
+submodules: true
 
 :tests:
 
