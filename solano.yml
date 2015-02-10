@@ -10,10 +10,11 @@ submodules: true
 :tests:
 
 - type: junit
-  mode: parallel
-  output: exit-status
-  files:
-  - include: '**/*Test.java'
-  command: "./solano-runner" 
+  mode: basic
+#  output: exit-status
+#  files:
+#  - include: '**/*Test.java'
+#  command: "./solano-runner" 
+  command: "gradle clean test"
   report_files: 
   - "**/TEST-*.xml"
