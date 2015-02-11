@@ -5,16 +5,14 @@
   :gradle_version: 2.0
 :timeout_hook: 120
 :timeout: 300
-submodules: true
 
 :tests:
 
 - type: junit
-  mode: basic
-#  output: exit-status
-#  files:
-#  - include: '**/*Test.java'
-#  command: "./solano-runner" 
-  command: "gradle clean test"
+  mode: parallel
+  output: exit-status
+  files:
+  - include: '**/*Test.java'
+  command: "./solano-runner" 
   report_files: 
   - "**/TEST-*.xml"
