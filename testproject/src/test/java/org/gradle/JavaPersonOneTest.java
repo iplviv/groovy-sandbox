@@ -7,14 +7,14 @@ import java.io.IOException;
 import java.io.File;
 import java.util.Properties;
 
-public class JavaPersonTestOne {
+public class JavaPersonOneTest {
     @Test
-    public void testMainProperty() throws IOException {
+    public void testMainProperty1() throws IOException {
         assertEquals("mainValue", new JavaPerson().readProperty());
     }
 
     @Test
-    public void testTestProperty() throws IOException {
+    public void testTestProperty1() throws IOException {
         Properties properties = new Properties();
         properties.load(getClass().getClassLoader().getResourceAsStream("org/gradle/test.properties"));
         assertEquals("testValue", properties.getProperty("test"));
