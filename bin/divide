@@ -1,0 +1,7 @@
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+
+require 'divide'
+
+if $0 == __FILE__
+  puts "Result: #{divide(10,10)}"
+end

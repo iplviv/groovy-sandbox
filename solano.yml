@@ -6,8 +6,14 @@
 :timeout_hook: 120
 :timeout: 300
 
-:tests:
+:ruby_version: 'ruby-1.9.3'
+:bundler_version: 1.3.5
 
+:test_pattern:
+  - features/*.feature
+  - spec/**_spec.rb
+
+:tests:
 - type: junit
   mode: parallel
   output: exit-status
