@@ -16,5 +16,6 @@ public class JavaPersonTwoTest {
     @Test
     public void testMarkerFile2() throws IOException {
         new File(System.getProperty("org.gradle.integtest.buildDir") + "/" + getClass().getSimpleName()).createNewFile();
+        assert false;
     }
 }
