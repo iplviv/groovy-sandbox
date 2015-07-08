@@ -6,11 +6,7 @@
 :timeout_hook: 120
 :timeout: 300
 
-#:ruby_version: 'ruby-2.1.0'
-
-#:test_pattern:
-#  - features/*.feature
-#  - spec/**_spec.rb
+:ruby_version: 'ruby-2.1.2'
 
 :tests:
 - type: junit
