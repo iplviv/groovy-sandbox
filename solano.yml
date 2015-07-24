@@ -4,7 +4,7 @@
   :maven_version: 3.0.5
   :gradle_version: 2.0
 :timeout_hook: 120
-:timeout: 300
+:timeout: 200
 
 :ruby_version: 'ruby-2.1.2'
 
