@@ -31,6 +31,6 @@ cmd += ")"
  
 puts cmd
  
-# Run.
+# Run
 exit(system(cmd))
 
