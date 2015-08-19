@@ -10,7 +10,7 @@
 
 :tests:
 - type: junit
-  mode: parallel
+  mode: basic
   output: exit-status
   files:
   - include: '**/*Test.java'
