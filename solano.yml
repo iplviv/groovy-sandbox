@@ -6,7 +6,6 @@
 :timeout_hook: 120
 :timeout: 200
 
-:ruby_version: 'ruby-2.1.2'
 
 :tests:
 - type: junit
